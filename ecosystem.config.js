@@ -4,7 +4,7 @@ module.exports = {
     script : "yarn start",
     env_production: {
       HOST: "0.0.0.0",
-      PORT: "1337",
+      PORT: "1444",
       APP_KEYS: "sFkZDYJcAH0PuIA99zq+VA==,Mqs1cBWOJLseGez1UqXXZQ==,et9iv4ZNrSs4b+sJvcdAbQ==,K0tcyEOzDd4xroikcNmSjA==",
       API_TOKEN_SALT: "JAxQqi9pCVWmmZ0qmRJD6A==",
       ADMIN_JWT_SECRET: "x3zJJiebLrQwT/gS7hzzVg==",
