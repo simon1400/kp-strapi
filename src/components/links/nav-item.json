@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_links_nav_items",
+  "info": {
+    "displayName": "nav_item",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "blog": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "sub_nav_item": {
+      "displayName": "sub_nav_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "links.sub-nav-item"
+    }
+  }
+}

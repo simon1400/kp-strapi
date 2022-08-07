@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_product_variants",
+  "info": {
+    "displayName": "Variants",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "nazev": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "guid": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_order_basket_infos",
+  "info": {
+    "displayName": "basketInfo",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

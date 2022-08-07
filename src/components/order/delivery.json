@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_order_deliveries",
+  "info": {
+    "displayName": "delivery",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "value": {
+      "type": "biginteger"
+    },
+    "guid": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    }
+  }
+}

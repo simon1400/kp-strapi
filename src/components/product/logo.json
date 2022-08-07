@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_product_logos",
+  "info": {
+    "displayName": "logo",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "brands": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
+    }
+  }
+}

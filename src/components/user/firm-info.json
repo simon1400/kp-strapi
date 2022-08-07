@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_user_firm_infos",
+  "info": {
+    "displayName": "firmInfo",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "nameCompany": {
+      "type": "string"
+    },
+    "dic": {
+      "type": "string"
+    },
+    "ico": {
+      "type": "string"
+    }
+  }
+}

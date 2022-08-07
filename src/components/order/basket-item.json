@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_order_basket_items",
+  "info": {
+    "displayName": "basketItem",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "idProduct": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    },
+    "guid": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

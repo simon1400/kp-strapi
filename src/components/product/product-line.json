@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_product_product_lines",
+  "info": {
+    "displayName": "product-line",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::produkt.produkt"
+    }
+  }
+}

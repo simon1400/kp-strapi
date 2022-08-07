@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "values",
+  "info": {
+    "singularName": "value",
+    "pluralName": "values",
+    "displayName": "Hodnoty",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "parameters": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::parameter.parameter",
+      "mappedBy": "values"
+    },
+    "produkties": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::produkt.produkt",
+      "mappedBy": "values"
+    }
+  }
+}
