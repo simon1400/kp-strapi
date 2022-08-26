@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name   : "KP strapi demo",
-    script : "yarn start",
+    script : "yarn dev",
     env_production: {
       HOST: "0.0.0.0",
       PORT: "1444",
