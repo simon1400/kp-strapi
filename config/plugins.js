@@ -6,11 +6,11 @@ module.exports = {
       produkt: {
         indexName: "categoryProducts",
         settings: {
-          filterableAttributes: ['brand', 'category', 'values', 'parameters'],
+          filterableAttributes: ['brand', 'categoryTitles', 'values', 'parameters'],
           sortableAttributes: ['price'],
           searchableAttributes: [
             'title',
-            'category',
+            'categoryTitles',
             'brand',
             'code',
             'slug'
