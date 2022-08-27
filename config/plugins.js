@@ -12,6 +12,7 @@ module.exports = {
             'title',
             'categoryTitles',
             'valuesTitles',
+            "price",
             'brand',
             'code',
             'slug'
@@ -22,6 +23,7 @@ module.exports = {
             ...entry,
             categoryTitles: entry.category.map(item => item.title),
             valuesTitles: entry.values.map(item => item.title),
+            price: +entry.price,
           }
           return data
         },
