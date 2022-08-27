@@ -27,7 +27,22 @@ module.exports = {
           }
           return data
         },
-      }
+      },
+      category: {
+        settings: {
+          searchableAttributes: ['title'],
+        },
+      },
+      brand: {
+        settings: {
+          searchableAttributes: ['title'],
+        },
+      },
+      article: {
+        settings: {
+          searchableAttributes: ['title'],
+        },
+      },
     }
   },
 }
