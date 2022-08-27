@@ -6,7 +6,7 @@ module.exports = {
       produkt: {
         indexName: "categoryProducts",
         settings: {
-          filterableAttributes: ['brand', 'values'],
+          filterableAttributes: ['brand', 'category', 'values', 'parameters'],
           sortableAttributes: ['price'],
           searchableAttributes: [
             'title',
@@ -19,6 +19,23 @@ module.exports = {
             'slug'
           ],
         },
+        // transformEntry({ entry }) {
+        //   const data = {
+        //     id: entry.id,
+        //     title: entry?.title,
+        //     logo: entry?.logo,
+        //     content: entry?.content,
+        //     phone: entry?.contact?.phone,
+        //     slug: entry?.slug,
+        //     type: entry?.type,
+        //     rating: entry?.rating || 0,
+        //     address: entry?.address,
+        //     specialisations: entry.specialisations.map(specialisation => specialisation?.title),
+        //     services: entry.services.map(service => service?.title),
+        //     city: entry?.address.split(',')[0].split('г.')[1]
+        //   }
+        //   return data
+        // },
       }
     }
   },
