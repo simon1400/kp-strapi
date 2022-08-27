@@ -6,11 +6,12 @@ module.exports = {
       produkt: {
         indexName: "categoryProducts",
         settings: {
-          filterableAttributes: ['brand', 'categoryTitles', 'values', 'parameters'],
+          filterableAttributes: ['brand', 'categoryTitles', 'valuesTitles', 'parameters'],
           sortableAttributes: ['price'],
           searchableAttributes: [
             'title',
             'categoryTitles',
+            'valuesTitles',
             'brand',
             'code',
             'slug'
@@ -20,6 +21,7 @@ module.exports = {
           const data = {
             ...entry,
             categoryTitles: entry.category.map(item => item.title),
+            valuesTitles: entry.values.map(item => item.title),
           }
           return data
         },
