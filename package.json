@@ -12,18 +12,15 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi-community/strapi-plugin-url-alias": "^1.0.0-alpha.4",
     "@strapi/plugin-graphql": "^4.3.6",
     "@strapi/plugin-i18n": "4.3.2",
     "@strapi/plugin-users-permissions": "4.3.2",
     "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
     "strapi-plugin-duplicate-button": "^1.0.4",
-    "strapi-plugin-fast-content": "0.0.5",
     "strapi-plugin-generate-schema": "0.0.1",
     "strapi-plugin-local-image-sharp": "^1.2.0",
     "strapi-plugin-meilisearch": "^0.7.1",
-    "strapi-plugin-preview-button": "^0.3.5",
     "strapi-plugin-sitemap": "^2.0.8",
     "strapi-tiptap-editor": "^0.8.0"
   },
