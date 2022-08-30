@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sale_codes",
+  "info": {
+    "singularName": "sale-code",
+    "pluralName": "sale-codes",
+    "displayName": "Slevové kupony",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "procenta",
+        "castka"
+      ],
+      "required": true,
+      "default": "procenta"
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "minValue": {
+      "type": "biginteger",
+      "default": "0"
+    }
+  }
+}
