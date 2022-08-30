@@ -8,7 +8,7 @@ module.exports = {
         settings: {
           filterableAttributes: ['brand', 'categoryTitles', 'valuesTitles', 'parameters'],
           sortableAttributes: ['price'],
-          facetDistribution: ['categoryTitles', "brand", "valuesTitles", "parameters"],
+          faceting: ['categoryTitles', "brand", "valuesTitles", "parameters"],
           searchableAttributes: [
             'title',
             'categoryTitles',
