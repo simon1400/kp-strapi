@@ -181,6 +181,12 @@
         }
       },
       "component": "order.delivery"
+    },
+    "sale": {
+      "displayName": "sale",
+      "type": "component",
+      "repeatable": false,
+      "component": "order.sale"
     }
   }
 }

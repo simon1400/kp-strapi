@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_order_sales",
+  "info": {
+    "displayName": "sale",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
