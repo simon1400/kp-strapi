@@ -24,7 +24,7 @@
     },
     "fileContent": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "log": {
       "type": "richtext"
