@@ -22,15 +22,14 @@
       ],
       "required": true
     },
-    "fileContent": {
-      "type": "richtext",
-      "required": false
-    },
     "log": {
       "type": "richtext"
     },
     "fileName": {
       "type": "string"
+    },
+    "fileContent": {
+      "type": "text"
     }
   }
 }
