@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moneys",
+  "info": {
+    "singularName": "money",
+    "pluralName": "moneys",
+    "displayName": "Money S3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "errorLog": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "export",
+        "import"
+      ],
+      "required": true
+    },
+    "fileContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "log": {
+      "type": "richtext"
+    }
+  }
+}
