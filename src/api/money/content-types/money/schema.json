@@ -4,7 +4,8 @@
   "info": {
     "singularName": "money",
     "pluralName": "moneys",
-    "displayName": "Money S3"
+    "displayName": "Money S3",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,6 +28,9 @@
     },
     "log": {
       "type": "richtext"
+    },
+    "fileName": {
+      "type": "string"
     }
   }
 }
