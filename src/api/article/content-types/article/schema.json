@@ -109,6 +109,18 @@
       "relation": "manyToMany",
       "target": "api::category-article.category-article",
       "mappedBy": "articles"
+    },
+    "child": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "inversedBy": "parent"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "inversedBy": "child"
     }
   }
 }
