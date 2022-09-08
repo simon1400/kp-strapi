@@ -32,6 +32,9 @@
       "relation": "manyToMany",
       "target": "api::brand.brand",
       "mappedBy": "parameters"
+    },
+    "position": {
+      "type": "biginteger"
     }
   }
 }
