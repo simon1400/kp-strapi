@@ -1,10 +1,13 @@
 // config/plugins.js
 
 module.exports = {
+  'fast-content': {
+    enabled: true,
+  },
   meilisearch: {
     config: {
       produkt: {
-        // indexName: "categoryProducts",
+        indexName: "categoryProducts",
         settings: {
           filterableAttributes: ['brand', 'categoryTitles', 'valuesTitles', 'parameters'],
           sortableAttributes: ['price'],

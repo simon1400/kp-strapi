@@ -17,9 +17,10 @@
     "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
     "strapi-plugin-duplicate-button": "^1.0.4",
+    "strapi-plugin-fast-content": "^1.0.0",
     "strapi-plugin-generate-schema": "0.0.1",
     "strapi-plugin-local-image-sharp": "^1.2.0",
-    "strapi-plugin-meilisearch": "^0.7.0",
+    "strapi-plugin-meilisearch": "^0.7.3",
     "strapi-plugin-sitemap": "^2.0.8",
     "strapi-tiptap-editor": "^0.8.0"
   },
