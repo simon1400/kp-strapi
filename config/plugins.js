@@ -4,7 +4,7 @@ module.exports = {
   meilisearch: {
     config: {
       produkt: {
-        indexName: "newCategoryProducts",
+        indexName: "categoryProducts",
         settings: {
           filterableAttributes: ['brand', 'categoryTitles', 'valuesTitles', 'parameters'],
           sortableAttributes: ['price'],
@@ -17,15 +17,15 @@ module.exports = {
             'code',
             'slug'
           ],
-          typoTolerance: 0
         },
         transformEntry({ entry }) {
-          return {
+          const data = {
             ...entry,
             categoryTitles: entry.category.map(item => item.title),
             valuesTitles: entry.values.map(item => item.title),
             price: +entry.price,
           }
+          return data
         },
       },
       category: {
