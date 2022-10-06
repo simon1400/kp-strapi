@@ -4,7 +4,7 @@ module.exports = {
   meilisearch: {
     config: {
       produkt: {
-        indexName: "categoryProducts",
+        indexName: "newCategoryProducts",
         settings: {
           filterableAttributes: ['brand', 'categoryTitles', 'valuesTitles', 'parameters'],
           sortableAttributes: ['price'],
