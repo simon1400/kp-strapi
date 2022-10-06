@@ -17,15 +17,15 @@ module.exports = {
             'code',
             'slug'
           ],
+          typoTolerance: 0
         },
         transformEntry({ entry }) {
-          const data = {
+          return {
             ...entry,
             categoryTitles: entry.category.map(item => item.title),
             valuesTitles: entry.values.map(item => item.title),
             price: +entry.price,
           }
-          return data
         },
       },
       category: {
