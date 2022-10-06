@@ -6,7 +6,7 @@ module.exports = {
       produkt: {
         indexName: "categoryProducts",
         settings: {
-          filterableAttributes: ['brand', 'categoryTitles', 'valuesTitles', 'parameters'],
+          filterableAttributes: ['brand.title', 'categoryTitles', 'valuesTitles', 'parameters'],
           sortableAttributes: ['price'],
           distinctAttribute: ['brand', 'categoryTitles'],
           searchableAttributes: [
