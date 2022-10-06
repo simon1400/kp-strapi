@@ -1,9 +1,6 @@
 // config/plugins.js
 
 module.exports = {
-  'fast-content': {
-    enabled: true,
-  },
   meilisearch: {
     config: {
       produkt: {
