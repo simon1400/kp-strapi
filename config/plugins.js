@@ -8,6 +8,7 @@ module.exports = {
         settings: {
           filterableAttributes: ['brand', 'categoryTitles', 'valuesTitles', 'parameters'],
           sortableAttributes: ['price'],
+          distinctAttribute: ['brand', 'categoryTitles'],
           searchableAttributes: [
             'title',
             'categoryTitles',
