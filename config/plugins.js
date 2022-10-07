@@ -7,7 +7,7 @@ module.exports = {
         transformEntry({ entry }) {
           const data = {
             ...entry,
-            categoryTitles: entry.category.map(item => item.title+'sgdfhgdhjfghjjfhkjfhdfskjhglks;fjdgdsfoilgjosfigj'),
+            categoryTitles: entry.category.map(item => item.title),
             valuesTitles: entry.values.map(item => item.title),
             price: +entry.price,
           }
