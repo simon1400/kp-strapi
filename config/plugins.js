@@ -5,13 +5,12 @@ module.exports = {
     config: {
       produkt: {
         transformEntry({ entry }) {
-          const data = {
+          return {
             ...entry,
             categoryTitles: entry.category.map(item => item.title),
             valuesTitles: entry.values.map(item => item.title),
             price: +entry.price,
           }
-          return data
         },
         settings: {
           filterableAttributes: ['categoryTitles', 'brand', 'valuesTitles', 'parameters'],
