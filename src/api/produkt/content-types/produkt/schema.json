@@ -164,6 +164,9 @@
       "relation": "manyToOne",
       "target": "api::brand.brand",
       "inversedBy": "products"
+    },
+    "ean": {
+      "type": "string"
     }
   }
 }
