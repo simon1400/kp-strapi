@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name   : "KP strapi demo",
-    script : "yarn start"
+    script : "yarn dev"
   }],
 
   deploy : {
