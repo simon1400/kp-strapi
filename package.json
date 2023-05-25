@@ -10,15 +10,15 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-graphql": "4.4.3",
     "@strapi/plugin-users-permissions": "4.4.3",
     "@strapi/strapi": "4.4.3",
     "better-sqlite3": "7.6.2",
+    "sharp": "^0.32.0",
     "strapi-plugin-duplicate-button": "^1.0.4",
     "strapi-plugin-local-image-sharp": "^1.2.1",
-    "strapi-plugin-meilisearch": "^0.8.0",
+    "strapi-plugin-meilisearch": "^0.9.2",
     "strapi-plugin-sitemap": "^2.0.8",
     "strapi-tiptap-editor": "^0.9.1"
   },
